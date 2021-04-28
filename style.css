@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body{
+    padding-top:51.5px;
+}*/
+
+#banner_image {
+    text-align: center;
+    color: #FFFFFF;
+    background: url(image/7.jpeg) no-repeat center center;
+    background-size:1400px 450px;
+    background-position:center top;
+    max-width:100%;
+}
+
+#banner_content {
+    padding-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 12%;
+    max-width: 660px; 
+}
+footer{
+    width:100%;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;  
+}
+#item_list {
+    padding-top: 50px;
+}
+#twl:before, #iwl:before, #il:before, #owl:before, #ow:before, #ov:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+.remove_item_link{
+    color:#0000ff;
+}
+@media(max-width: 425px) {
+  div.signupform{
+    width:100%;
+ }
+}
+@media(max-width: 425px) {
+  div.indexpage{
+    width:100%;
+   
+ }
+}
+@media(max-width: 425px) {
+  div.contactpage{
+    width:100%;
+ }
+}
+@media(max-width: 425px) {
+  .tasize{
+    cols:5;
+ }
+}
+
+@media(max-width: 425px) {
+  div.aboutpage{
+    width:100%;    
+ }
+}
+@media(max-width: 425px) {
+  div.aboutblock{
+    width:100%;
+       
+ }
+}
+@media(max-width: 425px) {
+  div.forgetpage{
+    width:100%;
+     font-size:1%;
+       
+ }
+}
+
